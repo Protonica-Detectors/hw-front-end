@@ -78,8 +78,44 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|100000000|93340000|976ec589-47a6-4592-8884-8fa75413dcd3|458bdee7-c68f-4341-a205-7949f0d18240",
-          "NORMAL WITH SUCH CONNECTOR"
+          "silk_edge_clearance|100000000|108746250|976ec589-47a6-4592-8884-8fa75413dcd3|685c2998-c1e3-41ca-b280-02f9a1e9c210",
+          ""
+        ],
+        [
+          "silk_edge_clearance|100000000|109313750|976ec589-47a6-4592-8884-8fa75413dcd3|eb81a627-a547-4050-9f32-584f7553fa34",
+          ""
+        ],
+        [
+          "silk_edge_clearance|129840000|85000000|eed3943a-9402-4fe6-921b-6d932f2adab4|ca7cd718-3b5e-4e06-8b76-355cd81980f2",
+          ""
+        ],
+        [
+          "silk_edge_clearance|130160000|85000000|eed3943a-9402-4fe6-921b-6d932f2adab4|5ed7af3e-cab5-4d1e-b9cf-fa62d53b1978",
+          ""
+        ],
+        [
+          "silk_edge_clearance|164840000|85000000|eed3943a-9402-4fe6-921b-6d932f2adab4|5623586a-a110-4487-815d-58c043b0906a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|165160000|85000000|eed3943a-9402-4fe6-921b-6d932f2adab4|836ae40a-2c04-445f-84c1-e6cd8304af59",
+          ""
+        ],
+        [
+          "silk_edge_clearance|199840000|85000000|eed3943a-9402-4fe6-921b-6d932f2adab4|fb723ea1-4f97-49ba-8bab-4fb2bc495039",
+          ""
+        ],
+        [
+          "silk_edge_clearance|200160000|85000000|eed3943a-9402-4fe6-921b-6d932f2adab4|269835de-42a8-40ab-9c00-0aa88e123db4",
+          ""
+        ],
+        [
+          "silk_edge_clearance|234840000|85000000|eed3943a-9402-4fe6-921b-6d932f2adab4|59c8d492-b3ef-4cfb-9ad1-fa65bef341dd",
+          ""
+        ],
+        [
+          "silk_edge_clearance|235160000|85000000|eed3943a-9402-4fe6-921b-6d932f2adab4|4a29f52f-a0d0-453e-889e-ef823b98c151",
+          ""
         ]
       ],
       "meta": {
@@ -560,9 +596,9 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 1,
-      "sort_order": 1
+      "sort_order": 0
     },
-    "bom_export_filename": "..\\..\\..\\Downloads\\hw-front-end.csv",
+    "bom_export_filename": "Output\\hw-front-end-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -578,15 +614,9 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
           "show": true
         },
         {
@@ -597,7 +627,19 @@
         },
         {
           "group_by": false,
-          "label": "DNP",
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Do Not Place",
           "name": "${DNP}",
           "show": false
         },
@@ -614,27 +656,21 @@
           "show": false
         },
         {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": false
+        },
+        {
           "group_by": true,
           "label": "MPN",
           "name": "MPN",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
           "show": false
         },
         {
@@ -665,7 +701,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -677,7 +713,7 @@
           "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -696,16 +732,43 @@
           "label": "L (µH)",
           "name": "L (µH)",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "MPN"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "bus_aliases": {
+      "FE_LED": [
+        "DATA",
+        "SCK",
+        "LE",
+        "~{OE}"
+      ],
+      "FE_PD": [
+        "RST",
+        "CLK",
+        "GAIN",
+        "VIDEO_12",
+        "VIDEO_34",
+        "TRG",
+        "EOS"
+      ],
       "LED_SERIAL": [
         "DATA",
         "SCK",
@@ -835,7 +898,7 @@
         "uuid": "87f042ce-f629-4310-aed7-dea93cc7b6f7"
       }
     ],
-    "used_designators": "R112,FB301",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

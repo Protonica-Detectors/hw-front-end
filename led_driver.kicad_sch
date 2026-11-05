@@ -1552,7 +1552,7 @@
 	)
 	(text "Target LED current: 20 mA"
 		(exclude_from_sim no)
-		(at 185.42 121.92 0)
+		(at 195.58 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1647,7 +1647,7 @@
 		(uuid "f96c9d09-5e05-43a5-a125-0a7c0c182e5a")
 	)
 	(bus_entry
-		(at 177.8 107.95)
+		(at 151.13 114.3)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1656,7 +1656,7 @@
 		(uuid "480a8caf-84fd-41e8-b66b-2ae240c17779")
 	)
 	(bus_entry
-		(at 177.8 100.33)
+		(at 151.13 99.06)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1665,7 +1665,7 @@
 		(uuid "7a068b5b-93ee-4c00-bd5a-243de33cc807")
 	)
 	(bus_entry
-		(at 177.8 105.41)
+		(at 151.13 106.68)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1674,7 +1674,7 @@
 		(uuid "a8cc8727-05a4-40d7-8a09-3e93e150b343")
 	)
 	(bus_entry
-		(at 177.8 97.79)
+		(at 151.13 91.44)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1724,13 +1724,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 125.73) (xy 200.66 127)
+			(xy 198.12 107.95) (xy 209.55 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cacb857-0f89-45cd-ac29-1df1db498b23")
+		(uuid "0f72e4e2-d873-45d1-b9c0-3c0065f07eca")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 198.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211ce0a8-d049-4a49-84f4-57d8b0e555a1")
 	)
 	(wire
 		(pts
@@ -1764,13 +1774,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 115.57) (xy 200.66 118.11)
+			(xy 205.74 115.57) (xy 205.74 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f7f37d6-f066-4ba0-9f1a-6d5cb7b63129")
+	)
+	(wire
+		(pts
+			(xy 153.67 109.22) (xy 198.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e3fe35-7cee-4394-9251-9024f800b105")
 	)
 	(wire
 		(pts
@@ -1804,13 +1824,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 107.95) (xy 209.55 107.95)
+			(xy 153.67 93.98) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3da2c9c9-9754-4a87-b766-9cab3fd94457")
+		(uuid "3ff565b8-5105-4345-994e-b3da6790f6e0")
 	)
 	(wire
 		(pts
@@ -1884,6 +1904,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 109.22) (xy 198.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5238d380-727e-421b-a16e-02891d476ab3")
+	)
+	(wire
+		(pts
 			(xy 218.44 154.94) (xy 218.44 152.4)
 		)
 		(stroke
@@ -1901,16 +1931,6 @@
 			(type default)
 		)
 		(uuid "55fd747d-2518-4305-8f6c-f0a23222918c")
-	)
-	(wire
-		(pts
-			(xy 180.34 100.33) (xy 209.55 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58a620f2-8ce9-45d4-8151-86bac5c7e7df")
 	)
 	(wire
 		(pts
@@ -1964,6 +1984,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 102.87) (xy 209.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f30419d-1bf2-4663-ae93-709aa68a0a18")
+	)
+	(wire
+		(pts
 			(xy 331.47 92.71) (xy 331.47 93.98)
 		)
 		(stroke
@@ -1994,6 +2024,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 93.98) (xy 200.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82dea626-b0d6-4169-a076-c67cbfc90178")
+	)
+	(wire
+		(pts
 			(xy 325.12 137.16) (xy 331.47 137.16)
 		)
 		(stroke
@@ -2014,6 +2054,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 110.49) (xy 209.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873f1f92-875d-49ba-bffb-c1b7ead86e67")
+	)
+	(wire
+		(pts
 			(xy 325.12 134.62) (xy 325.12 137.16)
 		)
 		(stroke
@@ -2021,6 +2071,16 @@
 			(type default)
 		)
 		(uuid "89b87952-a55b-4c0c-b6fa-43c5e2d070a3")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1c853e-2f92-4c8b-830c-b88bd458ff42")
 	)
 	(wire
 		(pts
@@ -2044,7 +2104,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 115.57) (xy 200.66 115.57)
+			(xy 209.55 115.57) (xy 205.74 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2074,23 +2134,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 110.49) (xy 209.55 110.49)
+			(xy 200.66 116.84) (xy 200.66 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9926a04b-e9aa-4571-9d99-bb09cd455272")
-	)
-	(wire
-		(pts
-			(xy 180.34 102.87) (xy 209.55 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99acf37f-7a1b-441e-a1a3-b956ce5d772d")
+		(uuid "9aea2192-a736-4830-a443-09aaf05c9231")
 	)
 	(wire
 		(pts
@@ -2234,6 +2284,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 101.6) (xy 198.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf45ab13-c74e-46cf-bcea-f83bcb43f899")
+	)
+	(wire
+		(pts
 			(xy 279.4 147.32) (xy 279.4 118.11)
 		)
 		(stroke
@@ -2314,6 +2374,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 125.73) (xy 205.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc1e248-12fb-449e-9de9-0bb2546b15af")
+	)
+	(wire
+		(pts
 			(xy 271.78 154.94) (xy 347.98 154.94)
 		)
 		(stroke
@@ -2382,25 +2452,25 @@
 		)
 		(uuid "ebe81b88-42fd-4921-86b6-8dfe051d29d1")
 	)
+	(wire
+		(pts
+			(xy 200.66 100.33) (xy 209.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3c4073-6a9a-4cdf-8a4a-9b2fb36dc623")
+	)
 	(bus
 		(pts
-			(xy 151.13 86.36) (xy 177.8 86.36)
+			(xy 140.97 86.36) (xy 151.13 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f2b15910-ba93-4727-9ea2-4b0c926d70b5")
-	)
-	(bus
-		(pts
-			(xy 177.8 86.36) (xy 177.8 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3b58551-0949-40bb-86c6-fb645c46c73d")
 	)
 	(wire
 		(pts
@@ -2442,6 +2512,16 @@
 		)
 		(uuid "fb9b9a68-47d8-4f1f-b806-61f8e9d8a0f6")
 	)
+	(bus
+		(pts
+			(xy 151.13 86.36) (xy 151.13 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe81f16-1e6a-4969-9d4b-2cd8c99831f3")
+	)
 	(label "LED_8"
 		(at 292.1 147.32 0)
 		(effects
@@ -2472,8 +2552,8 @@
 		)
 		(uuid "47d4ee87-10ec-4507-9ab1-61b953d43b94")
 	)
-	(label "LED_SERIAL.~{OE}"
-		(at 184.15 110.49 0)
+	(label "FE_LED.~{OE}"
+		(at 156.21 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2482,8 +2562,8 @@
 		)
 		(uuid "638f3b83-ca3b-418a-adc3-15d7be23ad25")
 	)
-	(label "LED_SERIAL.LE"
-		(at 184.15 107.95 0)
+	(label "FE_LED.LE"
+		(at 156.21 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2582,8 +2662,8 @@
 		)
 		(uuid "b4b914e1-09e1-4b40-8236-7203031f1246")
 	)
-	(label "LED_SERIAL.SCK"
-		(at 184.15 102.87 0)
+	(label "FE_LED.SCK"
+		(at 156.21 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2592,8 +2672,8 @@
 		)
 		(uuid "b6aff283-366c-41b2-b7a3-4106a6d0c689")
 	)
-	(label "LED_SERIAL.DATA"
-		(at 184.15 100.33 0)
+	(label "FE_LED.DATA"
+		(at 156.21 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2602,9 +2682,9 @@
 		)
 		(uuid "fb667372-f0a1-48e8-8bbc-69f033bcac9b")
 	)
-	(hierarchical_label "LED_SERIAL{LED_SERIAL}"
+	(hierarchical_label "FE_LED{FE_LED}"
 		(shape input)
-		(at 151.13 86.36 180)
+		(at 140.97 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3036,7 +3116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5feb8cbc-8523-497c-9142-774b73dcaffa")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0207"
 			(at 345.44 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3096,7 +3176,7 @@
 		(instances
 			(project "hw-front-end"
 				(path "/87f042ce-f629-4310-aed7-dea93cc7b6f7/2c5fcb1e-3ed8-4a6d-a4e6-504925f78c6b"
-					(reference "#PWR0202")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -3251,7 +3331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a0266ff-d314-401a-af11-f1fd6667ecb3")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0203"
 			(at 229.87 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3311,7 +3391,7 @@
 		(instances
 			(project "hw-front-end"
 				(path "/87f042ce-f629-4310-aed7-dea93cc7b6f7/2c5fcb1e-3ed8-4a6d-a4e6-504925f78c6b"
-					(reference "#PWR0201")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -3328,7 +3408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c4c5ebe-7fcb-418e-a0da-40c13ab29980")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0204"
 			(at 229.87 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3388,7 +3468,7 @@
 		(instances
 			(project "hw-front-end"
 				(path "/87f042ce-f629-4310-aed7-dea93cc7b6f7/2c5fcb1e-3ed8-4a6d-a4e6-504925f78c6b"
-					(reference "#PWR0203")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -3406,7 +3486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d55d2d6-144c-4a7a-8d15-5f48a919e19d")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0205"
 			(at 331.47 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3467,7 +3547,7 @@
 		(instances
 			(project "hw-front-end"
 				(path "/87f042ce-f629-4310-aed7-dea93cc7b6f7/2c5fcb1e-3ed8-4a6d-a4e6-504925f78c6b"
-					(reference "#PWR0204")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -3475,7 +3555,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 121.92 0)
+		(at 205.74 121.92 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3508,7 +3589,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 198.882 121.92 90)
+			(at 207.518 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3519,7 +3600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 121.92 0)
+			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,7 +3611,7 @@
 			)
 		)
 		(property "Description" "RES SMD 1K OHM 1% 1/4W 0805"
-			(at 200.66 121.92 0)
+			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3541,7 +3622,7 @@
 			)
 		)
 		(property "MPN" "CRCW08051K00FKEA"
-			(at 200.66 121.92 0)
+			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3552,7 +3633,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 200.66 121.92 0)
+			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3563,7 +3644,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 200.66 121.92 0)
+			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3574,7 +3655,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 200.66 121.92 0)
+			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3634,7 +3715,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
 			(at 353.06 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3755,7 +3836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5799580-e301-4ab7-8e7e-b89686ca154f")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0202"
 			(at 218.44 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -3815,7 +3896,7 @@
 		(instances
 			(project "hw-front-end"
 				(path "/87f042ce-f629-4310-aed7-dea93cc7b6f7/2c5fcb1e-3ed8-4a6d-a4e6-504925f78c6b"
-					(reference "#PWR0208")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -3856,7 +3937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
 			(at 353.06 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3968,7 +4049,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 127 0)
+		(at 205.74 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3977,8 +4058,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0a6b38a-f427-4f22-9ac7-1cbc122241b3")
-		(property "Reference" "#PWR0206"
-			(at 200.66 133.35 0)
+		(property "Reference" "#PWR0201"
+			(at 205.74 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3989,7 +4070,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 132.08 90)
+			(at 205.74 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3999,7 +4080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 127 0)
+			(at 205.74 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4010,7 +4091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 127 0)
+			(at 205.74 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4021,7 +4102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 127 0)
+			(at 205.74 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4037,7 +4118,7 @@
 		(instances
 			(project "hw-front-end"
 				(path "/87f042ce-f629-4310-aed7-dea93cc7b6f7/2c5fcb1e-3ed8-4a6d-a4e6-504925f78c6b"
-					(reference "#PWR0206")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -4055,7 +4136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1f59b82-ee05-416c-a71f-5b5562155f2b")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0208"
 			(at 345.44 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4115,7 +4196,7 @@
 		(instances
 			(project "hw-front-end"
 				(path "/87f042ce-f629-4310-aed7-dea93cc7b6f7/2c5fcb1e-3ed8-4a6d-a4e6-504925f78c6b"
-					(reference "#PWR0205")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -4133,7 +4214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8509dcb-06a3-4a04-8db4-9a7154b89ba7")
-		(property "Reference" "C204"
+		(property "Reference" "C205"
 			(at 340.36 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4252,7 +4333,7 @@
 		(instances
 			(project "hw-front-end"
 				(path "/87f042ce-f629-4310-aed7-dea93cc7b6f7/2c5fcb1e-3ed8-4a6d-a4e6-504925f78c6b"
-					(reference "C204")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -4465,7 +4546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f30862b3-b63a-4691-81c1-ce61ec0c3930")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0206"
 			(at 331.47 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4526,7 +4607,7 @@
 		(instances
 			(project "hw-front-end"
 				(path "/87f042ce-f629-4310-aed7-dea93cc7b6f7/2c5fcb1e-3ed8-4a6d-a4e6-504925f78c6b"
-					(reference "#PWR0207")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -4544,7 +4625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f602db68-c5b6-4106-90e8-2298005a7ad9")
-		(property "Reference" "C205"
+		(property "Reference" "C204"
 			(at 328.93 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4663,7 +4744,7 @@
 		(instances
 			(project "hw-front-end"
 				(path "/87f042ce-f629-4310-aed7-dea93cc7b6f7/2c5fcb1e-3ed8-4a6d-a4e6-504925f78c6b"
-					(reference "C205")
+					(reference "C204")
 					(unit 1)
 				)
 			)
