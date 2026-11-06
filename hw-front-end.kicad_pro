@@ -302,7 +302,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "B.1"
+      "sch_revision": "B.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -671,7 +671,7 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -701,7 +701,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
