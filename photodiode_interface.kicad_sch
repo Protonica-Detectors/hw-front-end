@@ -8730,7 +8730,7 @@
 				)
 			)
 		)
-		(property "MPN" "M20-9760642"
+		(property "MPN" "BHR-12-VUA"
 			(at 379.73 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9551,7 +9551,7 @@
 				)
 			)
 		)
-		(property "MPN" "M20-9760642"
+		(property "MPN" "BHR-12-VUA"
 			(at 379.73 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13454,7 +13454,7 @@
 				)
 			)
 		)
-		(property "MPN" "M20-9760642"
+		(property "MPN" "BHR-12-VUA"
 			(at 379.73 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -17175,7 +17175,7 @@
 				)
 			)
 		)
-		(property "MPN" "M20-9760642"
+		(property "MPN" "BHR-12-VUA"
 			(at 379.73 199.39 0)
 			(hide yes)
 			(show_name no)

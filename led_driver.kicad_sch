@@ -3748,7 +3748,7 @@
 				)
 			)
 		)
-		(property "MPN" "M20-9760442"
+		(property "MPN" "BHR-08-VUA"
 			(at 353.06 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3970,7 +3970,7 @@
 				)
 			)
 		)
-		(property "MPN" "M20-9760442"
+		(property "MPN" "BHR-08-VUA"
 			(at 353.06 147.32 0)
 			(hide yes)
 			(show_name no)
