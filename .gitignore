@@ -5,3 +5,5 @@ sym-lib-table
 fp-info-cache
 .history
 *.lck
+manufacturing/
+review/
